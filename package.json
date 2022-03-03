@@ -1,0 +1,30 @@
+{
+  "name": "node_expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch":"node-sass --watch src/resouces/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenPhiLong029/Node_ExpressJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenPhiLong029/Node_ExpressJS/issues"
+  },
+  "homepage": "https://github.com/NguyenPhiLong029/Node_ExpressJS#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
