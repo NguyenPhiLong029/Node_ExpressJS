@@ -1,11 +1,11 @@
 class SiteCotroller {
 
-    //[GET] /news
+    //[GET] /home
     homePage(req, res) {
         res.render("home");
     }
 
-    //[GET] /news/:slug
+    //[GET] /search
     searchPage(req, res) {
         res.render("search");
     }
